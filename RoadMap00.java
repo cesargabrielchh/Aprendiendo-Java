@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+
 public class RoadMap00 {
     /*
      * ¿Preparad@ para aprender o repasar el lenguaje de programación que tú quieras?
@@ -48,13 +50,14 @@ public class RoadMap00 {
         char aSingleLetter = 'a';
         boolean isThatTrue = false;
 
-        //Variables no primitivas
-        String myName = "César Chairez";
-
+        //Variables no primitivas (de referencia)
+        String myName = "César Chairez"; //Cadena de texto
+        Double[] container = {1200.0,1500.0}; //Array
 
         //Constantes
         final float PI_VALUE = 3.14159F;
 
+        System.out.println("Hola, este es mi primer ejercicio con Java y GitHub");
 
     }
 }
